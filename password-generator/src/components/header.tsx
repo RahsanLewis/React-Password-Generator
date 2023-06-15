@@ -11,20 +11,6 @@ function Header() {
           Password Generator
         </Link>
       </div>
-      {/* <div className="space-x-4">
-        <Link 
-          href="/signup" 
-          className="no-underline text-black"
-        >
-          Sign Up
-        </Link>
-        <Link 
-          href="/signin" 
-          className="no-underline text-black"
-        >
-          Sign In
-        </Link>
-      </div> */}
     </header>
   );
 }

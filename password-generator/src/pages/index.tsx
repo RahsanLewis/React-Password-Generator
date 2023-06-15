@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/layout';
-import '../styles/globals.css';
 import PasswordGenerator from '@/components/passwordGenerator';
 
 function HomePage() {
