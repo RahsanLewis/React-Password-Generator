@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 function Header() {
   return (
-    <header className="shadow-lg flex justify-center items-center py-4 px-8 bg-gray-100">
-      <div className="flex items-center space-x-2">
+    <header className="bg-gray-200 text-black border border-gray-300 shadow-xl py-6 px-4">
+      <div className="flex justify-around items-center">
         <Link 
           href="/" 
           className="text-2xl font-bold no-underline text-black">

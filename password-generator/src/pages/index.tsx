@@ -12,13 +12,14 @@ function HomePage() {
 
   return (
     <Layout>
-      <div className="App min-h-screen pt-0 flex flex-col sm:pt-0 bg-gray-100">
+      <div className="App pt-0 flex flex-col sm:pt-0 bg-white">
         <div className="relative py-3 sm:max-w-xl sm:mx-auto">
           <PasswordGenerator />
         </div>
       </div>
     </Layout>
   );
+
 }
 
 type Props = {
